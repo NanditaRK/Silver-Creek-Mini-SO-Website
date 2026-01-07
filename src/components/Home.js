@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const Home = ({ onLearnMoreClick }) => {
-  const endTime = new Date('2025-01-11T16:00:00Z').getTime();
+  const endTime = new Date('2026-01-23T23:59:59Z').getTime();
   const [remainingTime, setRemainingTime] = useState(endTime - Date.now());
 
   useEffect(() => {
