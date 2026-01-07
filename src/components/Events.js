@@ -31,7 +31,7 @@ const Events = () => {
   
         <li>Optics (Written Portion) </li>
         <li>Potions and Poisons</li>
-        <li>Reach for the Stars</li>
+        <li>Solar Systems</li>
         <li>Road Scholar</li>
         
     <li>Wind Power (Written Portion) </li>
