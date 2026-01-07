@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Home = ({ onLearnMoreClick }) => {
   const endTime = new Date('2026-01-23T23:59:59Z').getTime();
-  const [remainingTime, setRemainingTime] = useState(endTime - Date.now());
+  const [remainingTime, setRemainingTime] = useState(-1*endTime + Date.now());
 
   useEffect(() => {
     const interval = setInterval(() => {
