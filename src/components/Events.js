@@ -8,12 +8,32 @@ const Events = () => {
     <div className='text-xl p-8 text-center w-3/4 mx-auto text-gray-900 md:text-2xl lg:text-2xl'> 
     <ul className='list-disc flex flex-wrap justify-around text-left'>
         <div className='m-4' >
-        <li>Anatomy & Physiology</li>
-        <li>Anything Goes (Trial)</li>
-        <li>Codebusters</li>
-        <li>Crime Busters</li>
-        <li>Disease Detective</li>
-        <li>Dynamic Planet</li>
+<li>Anatomy and Physiology</li>
+<li>Boomilever Trial</li>
+<li>Circuit Lab</li>
+<li>Codebusters</li>
+<li>Crime Busters</li>
+<li>Disease Detectives</li>
+<li>Dynamic Planet</li>
+<li>Entomology</li>
+<li>Experimental Design</li>
+    </div>
+<li>Helicopter</li>
+<li>Heredity</li>
+<li>Hovercraft</li>
+<li>Machines</li>
+<li>Meteorology</li>
+<li>Metric Mastery</li>
+<li>Mission Possible</li>
+    </div>
+<li>Potions and Poisons</li>
+<li>Remote Sensing</li>
+<li>Rocks and Minerals</li>
+<li>Scrambler</li>
+<li>Solar System</li>
+<li>Water Quality</li>
+<li>Write It Do It</li>
+
         
         </div>
         <div className='m-4'>
@@ -33,7 +53,10 @@ const Events = () => {
         <li>Potions and Poisons</li>
         <li>Solar Systems</li>
         <li>Road Scholar</li>
-        
+
+
+
+      
     <li>Wind Power (Written Portion) </li>
     <li>Write It Do It</li>
 
