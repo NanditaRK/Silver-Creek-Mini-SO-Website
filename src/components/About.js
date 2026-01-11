@@ -58,10 +58,7 @@ const About = React.forwardRef((props, ref) => {
         <div className='m-8 flex justify-center flex-wrap'>
           {/* Team members cards */}
           <div className="card m-4 bg-white w-96 shadow-2xl">
-            <figure>
-              <img className='' src={nandita} alt="Nandita Raj Kumar" />
-            </figure>
-                      <div className="card m-4 bg-white w-96 shadow-2xl">
+ 
             <figure>
               <img className='' src={kenny} alt="Kenny Tran" />
             </figure>
