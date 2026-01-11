@@ -23,7 +23,7 @@ const Contact = ({ onOurTeamClick }) => {
     },
     {
       question: "When is the Invitational?",
-      answer: <p className="mb-2 text-gray-500 dark:text-gray-400">The event will be held on January 11, 2025 as an online invitational that can be done from home.</p>,
+      answer: <p className="mb-2 text-gray-500 dark:text-gray-400">The event will be from January 25, 2026 at 8:00 AM PST to February 1, 2026 at 9:00 PM PST.</p>,
     },
   ];
 

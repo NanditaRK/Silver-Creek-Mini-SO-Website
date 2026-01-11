@@ -1,13 +1,11 @@
 import React from 'react';
-import nandita from "../assets/pfp/nandita_rajkumar.png";
-import amala from "../assets/pfp/amala_valiveti.png";
 import anaya from "../assets/pfp/anaya_jain.png";
 import nishanth from "../assets/pfp/nishanth_tharakan.png"
-import reshma from "../assets/pfp/reshma_sudhakar.png";
 import kelvin from "../assets/pfp/kelvin_lee.png"
 import zakaria from "../assets/pfp/zakaria_aissous.jpg"
 import kenny from "../assets/pfp/kenny_tran.png"
 import rishi from "../assets/pfp/rishi_duddi.png"
+import saif from "../assets/logo.png"
 
 const About = React.forwardRef((props, ref) => {
   return (
@@ -59,8 +57,8 @@ const About = React.forwardRef((props, ref) => {
           {/* Team members cards */}
           <div className="card m-4 bg-white w-96 shadow-2xl">
  
-            <figure>
-              <img className='' src={kenny} alt="Kenny Tran" />
+            <figure className='w-96 h-[30rem]'>
+              <img className='object-cover' src={kenny} alt="Kenny Tran" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Kenny Tran</h2>
@@ -70,44 +68,20 @@ const About = React.forwardRef((props, ref) => {
           </div>
 
           <div className="card m-4 bg-white w-96 shadow-2xl">
-            <figure>
-              <img className='' src={nishanth} alt="Nishanth Tharakan" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Nishanth Tharakan</h2>
-              <p> Event Supervisor of Codebusters and Applied Mathematics Major at UCLA</p>
-              
-            </div>
-          </div>
-
-                    <div className="card m-4 bg-white w-96 shadow-2xl">
-            <figure>
-              <img className='' src={anaya} alt="Anaya Jain" />
+            <figure className='w-96 h-[30rem]'>
+              <img className='object-cover' src={anaya} alt="Anaya Jain" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Anaya Jain</h2>
-              <p>Co-President and Event Supervisor of Crime Busters</p>
+              <p>President and Event Supervisor of Crime Busters</p>
               
             </div>
           </div>
 
 
-     
-
           <div className="card m-4 bg-white w-96 shadow-2xl">
-            <figure>
-              <img className='' src={saif} alt="Name of Person" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Saif</h2>
-              <p>Event Supervisor of Dynamic Planet</p>
-              
-            </div>
-          </div>
-
-          <div className="card m-4 bg-white w-96 shadow-2xl">
-            <figure>
-              <img className='' src={kelvin} alt="Kelvin Lee" />
+            <figure className='w-96 h-[30rem]'>
+              <img className='object-cover' src={kelvin} alt="Kelvin Lee" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Kelvin Lee</h2>
@@ -117,8 +91,8 @@ const About = React.forwardRef((props, ref) => {
           </div>
 
           <div className="card m-4 bg-white w-96 shadow-2xl">
-            <figure>
-              <img className='' src={zakaria} alt="Zakaria Aissous" />
+            <figure className='w-96 h-[30rem]'>
+              <img className='object-cover' src={zakaria} alt="Zakaria Aissous" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Zakaria Aissous</h2>
@@ -127,17 +101,30 @@ const About = React.forwardRef((props, ref) => {
             </div>
           </div>
 
-
           <div className="card m-4 bg-white w-96 shadow-2xl">
-            <figure>
-              <img className='' src={rishi} alt="Rishi Duddi" />
+            <figure className='w-96 h-[30rem]'>
+              <img className='object-cover' src={saif} alt="Name of Person" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Rishi Duddi</h2>
-              <p>Event Supervisor of Ecology and Road Scholars</p>
+              <h2 className="card-title">Saif</h2>
+              <p>Event Supervisor of Dynamic Planet</p>
               
             </div>
           </div>
+
+          {/* New Card (just remove the comments which would be the brackets /and*) */}
+
+          {/* <div className="card m-4 bg-white w-96 shadow-2xl">
+            <figure className='w-96 h-[30rem]'>
+              <img className='object-cover' src={saif} alt="Name of Person" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Name of Person</h2>
+              <p>Description</p>
+              
+            </div>
+          </div> */}
+
 
         </div>
       </section>
