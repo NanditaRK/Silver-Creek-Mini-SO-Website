@@ -61,9 +61,13 @@ const About = React.forwardRef((props, ref) => {
             <figure>
               <img className='' src={nandita} alt="Nandita Raj Kumar" />
             </figure>
+                      <div className="card m-4 bg-white w-96 shadow-2xl">
+            <figure>
+              <img className='' src={kenny} alt="Kenny Tran" />
+            </figure>
             <div className="card-body">
-              <h2 className="card-title">Nandita Raj Kumar</h2>
-              <p>Co-President and Event Supervisor of Anatomy and Physiology, Experimental Design, Write It Do It, Wind Power, and Ecology</p>
+              <h2 className="card-title">Kenny Tran</h2>
+              <p>Event Supervisor of Reach for the Stars, President</p>
               
             </div>
           </div>
@@ -79,37 +83,27 @@ const About = React.forwardRef((props, ref) => {
             </div>
           </div>
 
-          <div className="card m-4 bg-white w-96 shadow-2xl">
-            <figure>
-              <img className='' src={amala} alt="Amala Valiveti" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Amala Valiveti</h2>
-              <p>Co-President and Event Supervisor of Disease Detectives</p>
-              
-            </div>
-          </div>
-
-          <div className="card m-4 bg-white w-96 shadow-2xl">
+                    <div className="card m-4 bg-white w-96 shadow-2xl">
             <figure>
               <img className='' src={anaya} alt="Anaya Jain" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Anaya Jain</h2>
-              <p>Vice President and Event Supervisor of Crime Busters</p>
+              <p>Co-President and Event Supervisor of Crime Busters</p>
               
             </div>
           </div>
+
 
      
 
           <div className="card m-4 bg-white w-96 shadow-2xl">
             <figure>
-              <img className='' src={reshma} alt="Name of Person" />
+              <img className='' src={saif} alt="Name of Person" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Reshma Sudhakar</h2>
-              <p>Secretary and Event Supervisor of Dynamic Planet</p>
+              <h2 className="card-title">Saif</h2>
+              <p>Event Supervisor of Dynamic Planet</p>
               
             </div>
           </div>
@@ -136,16 +130,6 @@ const About = React.forwardRef((props, ref) => {
             </div>
           </div>
 
-          <div className="card m-4 bg-white w-96 shadow-2xl">
-            <figure>
-              <img className='' src={kenny} alt="Kenny Tran" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Kenny Tran</h2>
-              <p>Event Supervisor of Reach for the Stars</p>
-              
-            </div>
-          </div>
 
           <div className="card m-4 bg-white w-96 shadow-2xl">
             <figure>
